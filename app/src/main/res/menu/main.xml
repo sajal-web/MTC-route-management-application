@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/share_app"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate us" />
+<!--            <item-->
+<!--                android:id="@+id/report_bug"-->
+<!--                android:icon="@drawable/ic_bug"-->
+<!--                android:title="Report Bug" />-->
+            <item
+                android:id="@+id/feature"
+                android:icon="@drawable/ic_suggest"
+                android:title="Suggest a feature" />
+            <item
+                android:id="@+id/suggestion"
+                android:icon="@drawable/ic_stopage"
+                android:title="Suggest a stopage" />
+<!--            <item-->
+<!--                android:id="@+id/invite"-->
+<!--                android:icon="@drawable/ic_invite"-->
+<!--                android:title="Invite Friends" />-->
+            <item
+                android:id="@+id/whatsapp_share"
+                android:icon="@drawable/ic_whatsapp"
+                android:title="Share in WhatsApp" />
+        </menu>
+    </item>
+    <item android:title="Developer Contact">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about_us"
+                android:title="About us" />
+            <item
+                android:id="@+id/disclaimer"
+                android:icon="@drawable/ic_disclaimer"
+                android:title="Disclaimer" />
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

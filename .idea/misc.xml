@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/about_us.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/arrow.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/bus_img.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/divider_recyclerview.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/dot_line.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_bug.xml" value="0.11197916666666667" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_contact.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_disclaimer.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_invite.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_privacy.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_rate.xml" value="0.11197916666666667" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_share.xml" value="0.11197916666666667" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_stopage.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_suggest.xml" value="0.11197916666666667" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ic_whatsapp.xml" value="0.13697916666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/ripple_effect.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable-v24/swap.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable/arrow_back.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable/arrow_road.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/drawable/three_line.xml" value="0.22291666666666668" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_bus_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_bus_road_map.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_manage_otp.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/DTC/app/src/main/res/layout/appbar.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/autocomplete_custom.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/bus_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/bus_row.xml" value="0.5" />
+        <entry key="..\:/DTC/app/src/main/res/layout/header.xml" value="0.33" />
+        <entry key="..\:/DTC/app/src/main/res/layout/stopage_layout.xml" value="0.33" />
+        <entry key="..\:/DTC/app/src/main/res/menu/main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
