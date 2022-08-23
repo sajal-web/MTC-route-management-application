@@ -23,10 +23,10 @@
         <entry key="..\:/DTC/app/src/main/res/drawable/arrow_back.xml" value="0.22291666666666668" />
         <entry key="..\:/DTC/app/src/main/res/drawable/arrow_road.xml" value="0.22291666666666668" />
         <entry key="..\:/DTC/app/src/main/res/drawable/three_line.xml" value="0.22291666666666668" />
-        <entry key="..\:/DTC/app/src/main/res/layout/activity_bus_list.xml" value="0.20677083333333332" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_bus_list.xml" value="0.22" />
         <entry key="..\:/DTC/app/src/main/res/layout/activity_bus_road_map.xml" value="0.20677083333333332" />
         <entry key="..\:/DTC/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
-        <entry key="..\:/DTC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/DTC/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/DTC/app/src/main/res/layout/activity_manage_otp.xml" value="0.20677083333333332" />
         <entry key="..\:/DTC/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/DTC/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
