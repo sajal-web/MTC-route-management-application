@@ -21,4 +21,16 @@ Hello there!
 
 <img src="https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif" width="300" height="500">
 
+## Features
+
+- Get any bus route information
+- Get Stoppage KM details
+- Bus Fares Details
+- Time details (in a particular Stoppage)
+
+
+## Built with
+
+- JAVA [Language  for development](https://docs.oracle.com/en/java/)
+- Firebase : For realtime [Database](https://firebase.google.com/)
 
