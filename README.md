@@ -19,6 +19,6 @@ Hello there!
 
 ## Demo
 
-Insert gif or link to demo
+
 
 ![Alt text](https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif)
