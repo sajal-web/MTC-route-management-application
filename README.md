@@ -21,4 +21,4 @@ Hello there!
 
 
 
-![Alt text](https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif =250x250)
+![Alt text](https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif )
