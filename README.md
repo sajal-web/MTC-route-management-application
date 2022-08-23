@@ -19,6 +19,6 @@ Hello there!
 
 ## Demo
 
-![demo]<img src="https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif" width="300" height="690">
+![demo]<img src="https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif" width="300" height="650">
 
 ![Alt text](https://github.com/sajal-web/MTC-route-management-application/blob/master/demo/demo.gif )
