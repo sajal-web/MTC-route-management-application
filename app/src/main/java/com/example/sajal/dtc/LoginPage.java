@@ -35,7 +35,7 @@ public static String PREFS_NAME ="MyPretsFilee";
     protected void onCreate(Bundle savedInstanceState) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_page);
+        setContentView(R.layout.login_page_layout);
         // This code use for hide toolbar for this activity
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
