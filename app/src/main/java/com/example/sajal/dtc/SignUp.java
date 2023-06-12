@@ -31,14 +31,13 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.sign_up_page);
         // This code use for hide toolbar for this activity
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
 
 
-        backImage = findViewById(R.id.backImg);
         signUp = findViewById(R.id.signUp);
         add_userName = findViewById(R.id.add_userName);
         add_email = findViewById(R.id.add_email);
@@ -46,12 +45,7 @@ public class SignUp extends AppCompatActivity {
         add_contact_number = findViewById(R.id.add_contact_number);
         dbroot = FirebaseFirestore.getInstance();
 
-        backImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -122,5 +116,10 @@ public class SignUp extends AppCompatActivity {
             add_userName.setError("Please Enter the username");
         }
 
+    }
+
+    public void gotoLogin(View view) {
+        Intent intent = new Intent(SignUp.this,LoginPage.class);
+        startActivity(intent);
     }
 }

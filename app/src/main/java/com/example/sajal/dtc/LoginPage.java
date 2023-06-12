@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -35,6 +36,7 @@ public static String PREFS_NAME ="MyPretsFilee";
     protected void onCreate(Bundle savedInstanceState) {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.login_page_layout);
         // This code use for hide toolbar for this activity
         if (getSupportActionBar() != null) {
@@ -91,14 +93,29 @@ public static String PREFS_NAME ="MyPretsFilee";
                                         Intent intent = new Intent(LoginPage.this, MainActivity.class);
                                         startActivity(intent);
                                         progressDialog.dismiss();
+                                        SharedPreferences sharedPreferences = getSharedPreferences(LoginPage.PREFS_NAME,0);
+                                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                                        editor.putBoolean("hasLoggedIn",true);
+                                        editor.apply();
                                         finish();
                                     } else {
                                         addPassword.setError("Wrong Password");
+
+                                        Toast.makeText(getApplicationContext(),"Enter correct password",Toast.LENGTH_SHORT);
                                         progressDialog.dismiss();
+                                        SharedPreferences sharedPreferences = getSharedPreferences(LoginPage.PREFS_NAME,0);
+                                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                                        editor.putBoolean("hasLoggedIn",false);
+                                        editor.apply();
                                     }
                                 } else {
                                     addUserName.setError("User doesn't exist");
+                                    Toast.makeText(getApplicationContext(),"User doesn't exist",Toast.LENGTH_SHORT);
                                     progressDialog.dismiss();
+                                    SharedPreferences sharedPreferences = getSharedPreferences(LoginPage.PREFS_NAME,0);
+                                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                                    editor.putBoolean("hasLoggedIn",false);
+                                    editor.apply();
                                 }
                             }
                             @Override

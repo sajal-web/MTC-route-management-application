@@ -1,13 +1,16 @@
 package com.example.sajal.dtc;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.animation.IntArrayEvaluator;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -29,12 +32,8 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         // This is used to hide the status bar and
+
         // make the splash screen as a full screen activity
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        // This code use for hide toolbar for this activity
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
-        }
         img1 = findViewById(R.id.img1);
         text1 = findViewById(R.id.text1);
         text2 = findViewById(R.id.text2);
